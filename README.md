@@ -27,6 +27,11 @@
 
 3) `$ node ./scripts/sign_payload.js`
     - Encrypts random JSON blob with both public keys
+    - Pins PGP encrypted message to IPFS 
 
 4) `$ node ./scripts/decrypt_payload.js`
     - Decrypts random JSON blob for both parties using individual private key
+
+5) `$ node ./scripts/decrypt_ipfs_hash.js`
+    - Downloads given IPFS blob
+    - Decrypts blob for both parties using individual private key
