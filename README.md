@@ -20,6 +20,13 @@
 ### Demo scripts
 
 1) `$ node ./scripts/generate_buyer_pgp_key.js`
+    - Generates public/private key
+    
 2) `$ node ./scripts/generate_seller_pgp_key.js`
+    - Generates public/private key
+
 3) `$ node ./scripts/sign_payload.js`
+    - Encrypts random JSON blob with both public keys
+
 4) `$ node ./scripts/decrypt_payload.js`
+    - Decrypts random JSON blob for both parties using individual private key

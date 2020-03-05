@@ -22,7 +22,7 @@ const encryptedMsg = fs.readFileSync('./output/encrypted.msg', 'utf8');
         privateKeys: [privateKey]                                           // for decryption
     });
 
-    console.log(decrypted); // 'Hello, World!'
+    console.log('BUYER', decrypted);
 
 
     // SELLER KEYS
@@ -37,5 +37,5 @@ const encryptedMsg = fs.readFileSync('./output/encrypted.msg', 'utf8');
         privateKeys: [privateSellerKey]                                           // for decryption
     });
 
-    console.log(decryptedSellerVersion); // 'Hello, World!'
+    console.log('SELLER', decryptedSellerVersion);
 })();
