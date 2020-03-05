@@ -8,14 +8,14 @@
 
 ### Execution order
 
-* Bob generates PGP keys offchain using private key as seed
-* Bod sends `public` key to client (webapp)
-* Alice visits site - generates PGP key locally (in browser) using web3 enable private key
-* Alive fills in required data
-* Alice, in combination with Bobs public key, signs the payload
-* Alice then places this on chain (via a smart contract) for all to see
-* Bob then listens for new entries to this smart contract and can decrypt away using only private key he has
-* Data could be stored on IPFS and then this is the hash used onchain only
+* `Bob` generates PGP keys offchain using private key as seed
+* `Bob` sends `public` key to client (webapp)
+* `Alice` visits site - generates PGP key locally (in browser) using web3 enable private key
+* `Alice` fills in required data
+* `Alice`, in combination with `Bob`s `public` key, `signs` the payload
+* `Alice` then places this on chain (via a smart contract) for all to see
+* `Bob` then listens for new entries to this smart contract and can `decrypt` away using only `private` key he has
+* Data could be stored on `IPFS` and then this is the hash used onchain only
 
 ### Demo scripts
 
