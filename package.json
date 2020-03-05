@@ -1,0 +1,33 @@
+{
+  "name": "pgp-sig-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "openpgp": "^4.10.1"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^2.5.0",
+    "@openzeppelin/test-environment": "^0.1.3",
+    "@openzeppelin/test-helpers": "^0.5.4",
+    "mocha": "^7.1.0",
+    "chai": "^4.2.0"
+  },
+  "scripts": {
+    "test": "truffle compile && npx mocha --exit --recursive test",
+    "fast-test": "npx mocha --exit --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockrockettech/pgp-sig-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blockrockettech/pgp-sig-testing/issues"
+  },
+  "homepage": "https://github.com/blockrockettech/pgp-sig-testing#readme"
+}
